@@ -37,6 +37,18 @@ class _LoginState extends State<Login> {
 
           ),*/
           Container(
+            alignment: Alignment.center,
+            child: (
+                Text("RCL Groceries",
+                style: TextStyle(
+                  fontSize: 24.0,
+                  fontWeight: FontWeight.bold,
+                  color: cDarkGreen
+                ),
+                )
+            ),
+          ),
+          Container(
             margin: EdgeInsets.all(30.0),
             child: Form(
 

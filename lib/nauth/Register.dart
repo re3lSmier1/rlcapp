@@ -33,12 +33,17 @@ class _RegisterState extends State<Register> {
           SizedBox(
             height: 50.0,
           ),
-          Image(
-            alignment: Alignment.topCenter,
-            image: new ExactAssetImage("assets/logo_t.png"),
-            height: 80.0,
-            width: 80.0,
-
+          Container(
+            alignment: Alignment.center,
+            child: (
+                Text("RCL Groceries",
+                  style: TextStyle(
+                      fontSize: 24.0,
+                      fontWeight: FontWeight.bold,
+                      color: cDarkGreen
+                  ),
+                )
+            ),
           ),
           Container(
             margin: EdgeInsets.all(30.0),
